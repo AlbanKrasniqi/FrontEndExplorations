@@ -1,0 +1,30 @@
+/* Add these styles to your CSS file */
+
+.option-container {
+    text-align: center;
+    padding: 20px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Adjust the height as needed */
+    background-color: #80808054;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .arrow-icon {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,70 @@
+/* Updated styles for the container */
+.body-container {
+    background-color: #80808057; /* Gray background for the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Styles for the button container */
+  .list-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap between buttons */
+    background-color: white; /* White background for the button container */
+    padding: 40px; /* Increased padding for more space */
+  }
+  
+  /* Rest of your button styles */
+  .custom-button {
+    position: relative;
+    padding: 20px; /* Increased padding for larger buttons */
+    width: 400px; /* Increased button width */
+    height: 60px; /* Increased button height */
+    background-color: none;
+    border: none;
+    color: black;
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    border: 2px solid black;
+    display: flex ;
+    align-items: center;
+  }
+  
+  .left-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-image {
+    width: 30px; /* Increased image width */
+    height: 30px; /* Increased image height */
+    margin-right: 10px; /* Adjusted margin */
+    vertical-align: middle;
+  }
+  
+  .button-text {
+    margin-right: 20px;
+    padding-left: 5px;
+    text-decoration: none !important; 
+    color: black; 
+  }
+  
+  
+  .button-arrow {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Adjusted right position */
+    transform: translateY(-50%);
+    margin-left: 20px; /* Adjusted margin */
+  }
+  
+  img {
+    width: 35px; /* Increased image width */
+    height: 35px; /* Increased image height */
+  }
+
+  a{
+    text-decoration: none;
+  }
